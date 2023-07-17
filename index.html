@@ -145,7 +145,11 @@
             <li class="work-img-list">
               <img
                 class="img-computer"
-                src="./images/img1.jpg"
+                srcset="
+                  ./images/img-comp@1x.jpg 1x,
+                  ./images/img-comp@2x.jpg 2x
+                "
+                src="./images/img-comp@1x.jpg"
                 alt="Computer"
                 width="360"
               />
@@ -153,7 +157,11 @@
             <li class="work-img-list">
               <img
                 class="img-screen"
-                src="./images/img2.jpg"
+                srcset="
+                  ./images/img-screen@1x.jpg 1x,
+                  ./images/img-screen@2x.jpg 2x
+                "
+                src="./images/img-screen@1x.jpg"
                 alt="Screen"
                 width="360"
               />
@@ -161,7 +169,11 @@
             <li class="work-img-list">
               <img
                 class="img-smartphones"
-                src="./images/img3.jpg"
+                srcset="
+                  ./images/img-smartphones@1x.jpg 1x,
+                  ./images/img-smartphones@2x.jpg 2x
+                "
+                src="./images/img-smartphones@1x.jpg"
                 alt="Smartphones"
                 width="360"
               />
@@ -177,7 +189,11 @@
             <li class="team-img-list">
               <img
                 class="mark-picture"
-                src="./images/img4.jpg"
+                srcset="
+                  ./images/img-mark@1x.jpg 1x,
+                  ./images/img-mark@2x.jpg 2x
+                "
+                src="./images/img-tom@1x.jpg"
                 alt="Mark Guerrero"
                 height="260"
                 width="264"
@@ -220,7 +236,8 @@
             <li class="team-img-list">
               <img
                 class="tom-picture"
-                src="./images/img5.jpg"
+                srcset="./images/img-tom@1x.jpg 1x, ./images/img-tom@2x.jpg 2x"
+                src="./images/img-tom@1x.jpg"
                 alt="Tom Ford"
                 width="264"
               />
@@ -262,7 +279,11 @@
             <li class="team-img-list">
               <img
                 class="camila-picture"
-                src="./images/img6.jpg"
+                srcset="
+                  ./images/img-camila@1x.jpg 1x,
+                  ./images/img-camila@2x.jpg 2x
+                "
+                src="./images/img-camila@1x.jpg"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -304,7 +325,11 @@
             <li class="team-img-list">
               <img
                 class="daniele-picture"
-                src="./images/img7.jpg"
+                srcset="
+                  ./images/img-daniel@1x.jpg 1x,
+                  ./images/img-daniel@2x.jpg 2x
+                "
+                src="./images/img-daniel@1x.jpg"
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -540,90 +565,91 @@
         </form>
       </div>
     </div>
+
     <!--Mobile-Menu-->
 
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle close js-close-menu">
-        <svg class="menu-toggle-close-icon" width="8" height="8">
+        <svg class="close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-closeblack"></use>
         </svg>
       </button>
 
       <ul class="mobile-menu">
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link active link" href="">Studio</a>
+        <li class="mobile-item">
+          <a class="mobile-link active link" href="">Studio</a>
         </li>
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="">Portfolio</a>
+        <li class="mobile-item">
+          <a class="mobile-link link" href="">Portfolio</a>
         </li>
-        <li class="mobile-menu-item">
-          <a class="mobile-menu-link link" href="">Contacts</a>
+        <li class="mobile-item">
+          <a class="mobile-link link" href="">Contacts</a>
         </li>
       </ul>
       <address class="mobile-address">
-        <ul class="mobile-addr-list list">
-          <li class="mobile-addr-item">
+        <ul class="mobile-block list">
+          <li class="mobile-address-list">
             <a
               href="tel:+110001111111"
-              class="mobile-addr-link tel link"
+              class="mobaddress-link tel link"
               target="_blank"
               >+11 (000) 111-11-11</a
             >
           </li>
-          <li class="mobile-addr-item">
+          <li class="mobile-address-list">
             <a
               href="mailto:info@devstudio.com"
-              class="mobile-addr-link mail link"
+              class="mobaddress-link mail link"
               target="_blank"
               >info@devstudio.com</a
             >
           </li>
         </ul>
-        <ul class="mobile-networks list">
-          <li class="mobile-networks-item">
+        <ul class="mobile-soc-block list">
+          <li class="mobile-soc-item">
             <a
-              class="mobile-networks-link"
+              class="mobile-soc-link"
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="mobile-networks-icon" width="24" height="24">
+              <svg class="mobile-soc-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-networks-item">
+          <li class="mobile-soc-item">
             <a
-              class="mobile-networks-link"
+              class="mobile-soc-link"
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="mobile-networks-icon" width="24" height="24">
+              <svg class="mobile-soc-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-networks-item">
+          <li class="mobile-soc-item">
             <a
-              class="mobile-networks-link"
+              class="mobile-soc-link"
               href="https://facebook.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="mobile-networks-icon" width="24" height="24">
+              <svg class="mobile-soc-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="mobile-networks-item">
+          <li class="mobile-soc-item">
             <a
-              class="mobile-networks-link"
+              class="mobile-soc-link"
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <svg class="mobile-networks-icon" width="24" height="24">
+              <svg class="mobile-soc-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-linkedin"></use>
               </svg>
             </a>
